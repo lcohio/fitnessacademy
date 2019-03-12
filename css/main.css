@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Permanent+Marker');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #16202C;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.brand {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+.showcase {
+    font-family: 'Permanent Marker', cursive;
+    height: 700px;
+    background-image: url('../images/mobile-showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.showcase__headline {
+    font-size: 1.55em;
+    width: 100%;
+    font-weight: lighter;
+    position: absolute;
+    top: 45%;
+}
+
+.showcase__spacer {
+    width: 36%;
+    height: 1.4px;
+    margin: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 54.6%;
+    right: 32%;
+    display: inline-block;
+}
+
+.showcase__byline {
+    position: absolute;
+    width: 100%;
+    bottom: 42%;
+    font-size: .9em;
+    font-weight: lighter;
+}
+
+.showcase__button {
+    width: 42%;
+    height: 45px;
+    border: 1.5px solid red;
+    border-radius: 5px;
+    background-color: transparent;
+    color: red;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 33%;
+    right: 28.5%;
+    cursor: pointer;
+    text-align: center;
+    outline: 0;
+}
+
+.content__title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.1em;
+    margin: .9em 0 0 .8em;
+}
+
+.content__spacer {
+    width: 85%;
+    height: 1.4px;
+    background-color: #FFF;
+    margin: 5px 0 0 20px;
+}
+
+.content__info {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+.card {
+    border: 1px solid #FFF;
+    margin: 0 20px 30px 20px;
+}
+
+.card__headline {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.1em;
+    border-bottom: 1px solid white;
+    padding: 35px 10px 35px 10px;
+    text-align: center;
+}
+
+.card__byline {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-left: 13px;
+    border-bottom: 1px solid #fff;
+    border-width: 100%;
+}
+
+.card__button {
+    width: 90%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ef3737;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 23px;
+}
+
+.content {
+    padding-bottom: 110px;
+}
+
+.content__icon {
+    margin: 80px 25% 50px 25%;
+    width: 50%;
+}
+
+.content__headline {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.content__expound {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#barbell {
+    width: 80px;
+    margin-left: 40%;
+}
+
+footer {
+    background-image: url('../images/mobile-footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 725px;
+}
+
+.footer__title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.2em;
+    margin: 20px 0 0 20px;
+}
+
+.footer__spacer {
+    width: 85%;
+    height: 1.4px;
+    background-color: #FFF;
+    margin: 5px 0 0 20px;
+}
+
+.footer__info {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.footer__headline {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.social {
+    margin-top: 285px;
+    padding: 10px 0 30px 0;
+    border: 1px solid #fff;
+    border-right: 0;
+    border-left: 0;
+}
+
+.social__headline {
+    font-family: 'Permanent Marker', cursive;
+    font-size: .9em;
+    text-align: center;
+}
+
+.social__link__wrapper {
+    margin: 0 auto;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.social__link {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 70px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+i.fab.fa-facebook-f {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.copyright {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #11a7dd;
+}
+
