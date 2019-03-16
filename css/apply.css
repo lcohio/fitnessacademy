@@ -78,7 +78,7 @@ footer {
 
 .footer__wrapper {
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 90%;
 }
 
 .footer__title {
@@ -112,13 +112,12 @@ footer {
 }
 
 .social {
-    margin-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .social__link__wrapper {
     margin: 0 auto;
-    height: 100%;
-    padding: 30px;
+    height: 100%; 
     text-align: center;
 }
 
