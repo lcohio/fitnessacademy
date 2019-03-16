@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Permanent+Marker');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #16202C;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.brand {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-top: 60px;
+}
+
+.page__title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.video {
+    height: 400px;
+}
+
+.gumroad {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ef3737;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2em;
+}
+
+.gumroad__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.content__expound {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+    max-width: 290px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+footer {
+    background-image: url('../images/powerbuilding-footer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 400px;
+}
+
+.footer__wrapper {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.footer__title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.2em;
+    margin: 20px 0 0 20px;
+    text-align: left;
+}
+
+.footer__spacer {
+    width: 85%;
+    height: 1.4px;
+    background-color: #FFF;
+    margin: 5px 0 0 20px;
+}
+
+.footer__info {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.footer__headline {
+    font-family: 'Permanent Marker', cursive;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.social {
+    margin-bottom: 80px;
+}
+
+.social__link__wrapper {
+    margin: 0 auto;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.social__link {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 70px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: 6px;
+}
+
+i.fab.fa-facebook-f {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.copyright {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #11a7dd;
+}
