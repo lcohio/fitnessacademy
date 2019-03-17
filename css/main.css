@@ -62,6 +62,7 @@ header {
     border-bottom: 1px solid white;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .showcase__spacer {
@@ -78,7 +79,7 @@ header {
 .showcase__byline {
     position: absolute;
     width: 100%;
-    bottom: 42%;
+    bottom: 41%;
     font-size: .9em;
     font-weight: lighter;
 }
