@@ -58,6 +58,12 @@ header {
     top: 45%;
 }
 
+.headline__br {
+    border-bottom: 1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .showcase__spacer {
     width: 36%;
     height: 1.4px;
@@ -389,6 +395,7 @@ i.fab.fa-facebook-f {
 
     #barbell {
         margin-left: 10px;
+    
     }
     
     .content__headline {
