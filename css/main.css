@@ -50,38 +50,30 @@ header {
     text-align: center;
 }
 
+.showcase__content {
+    padding-top: 40vh;
+}
+
 .showcase__headline {
     font-size: 1.55em;
     width: 100%;
     font-weight: lighter;
-    position: absolute;
-    top: 45%;
+
 }
 
 .headline__br {
     border-bottom: 1px solid white;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 10px;
-}
-
-.showcase__spacer {
-    width: 36%;
-    height: 1.4px;
-    margin: auto;
-    background-color: #fff;
-    position: absolute;
-    top: 54.6%;
-    right: 32%;
-    display: inline-block;
 }
 
 .showcase__byline {
-    position: absolute;
-    width: 100%;
-    bottom: 41%;
     font-size: .9em;
     font-weight: lighter;
+}
+
+.button__container {
+    padding-top: 10px;
 }
 
 .showcase__button {
@@ -92,11 +84,7 @@ header {
     background-color: transparent;
     color: red;
     text-transform: uppercase;
-    position: absolute;
-    bottom: 31%;
-    right: 28.5%;
     cursor: pointer;
-    text-align: center;
     outline: 0;
 }
 
@@ -124,7 +112,9 @@ header {
 
 .card {
     border: 1px solid #FFF;
-    margin: 0 20px 30px 20px;
+    width: 82%;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .card__headline {
@@ -152,11 +142,10 @@ header {
     background-color: #ef3737;
     color: #fff;
     font-family: 'Permanent Marker', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
     cursor: pointer;
     border: none;
-    margin-left: 15px;
-    margin-bottom: 23px;
+    margin: 0 0 20px 25px;
 }
 
 .content {
@@ -249,16 +238,21 @@ footer {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 70px;
-    padding: 15px;
+    padding: 12px;
     margin-top: 40px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 1px;
+    margin-left: 1px;
 }
 
 i.fab.fa-facebook-f {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+i.fab.fa-instagram {
+    padding: 0 1px;
+}
+
 
 .copyright {
     font-family: 'Lato', sans-serif;
@@ -313,14 +307,17 @@ i.fab.fa-facebook-f {
         top: 58.5%;
     }
 
+    .button__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .showcase__button {
         width: 180px;
         height: 45px;
         border: 1.5px solid #fff;
         color: #fff;
-        position: absolute;
-        top: 64%;
-        left: 29%;
         cursor: pointer;
         outline: 0;
         margin: 0 auto;
@@ -335,23 +332,17 @@ i.fab.fa-facebook-f {
         width: 95%;
     }
 
-    .card {
-        margin: 0;
+    .card__wrapper {
+        display: flex;
+        justify-content: space-around;
     }
 
-    .card__wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 260px);
-        grid-gap: 30px;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-left: 60px;
-     
-   
+    .card {
+        max-width: 27%;
     }
 
     .card__headline {
-        padding: 20px 5px;
+        padding: 10;
         font-size: 1.5em;
     }
 
@@ -361,14 +352,13 @@ i.fab.fa-facebook-f {
         padding-left: 15px;
         font-size: 1em;
         padding-bottom: 50px;
+        height: 200px;
     }
 
     .card__button {
-        width: 220px;
+        width: 80%;
         height: 40px;
-        margin: 20px;
-        margin-bottom: 40px;
-       
+        margin: 0 0 20px 25px;
     }
         
 
@@ -417,7 +407,7 @@ i.fab.fa-facebook-f {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        height: 725px;
+        height: 625px;
     }
 
     .footer__wrapper {
@@ -481,8 +471,8 @@ i.fab.fa-facebook-f {
     }
 
     .social__link {
-        margin-left: 0;
-        padding: 30px;
+        margin-right: 5px;
+        padding: 20px;
     }
     
         
