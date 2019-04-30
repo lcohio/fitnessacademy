@@ -88,6 +88,10 @@ header {
     outline: 0;
 }
 
+.content__wrapper {
+    padding-bottom: 80px;
+}
+
 .content__title {
     font-family: 'Permanent Marker', cursive;
     font-size: 2.1em;
@@ -151,8 +155,12 @@ header {
 }
 
 .card__button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 7px;
     width: 90%;
-    height: 50px;
+    height: 45px;
     border-radius: 25px;
     background-color: #ef3737;
     color: #fff;
@@ -160,7 +168,7 @@ header {
     font-size: 1.2em;
     cursor: pointer;
     border: none;
-    margin: 0 0 20px 25px;
+    margin: 0 25px 20px 15px;
 }
 
 .card__button-link {
@@ -227,10 +235,14 @@ footer {
 }
 
 .footer__headline {
-    font-family: 'Permanent Marker', cursive;
-    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 330px;
     margin-bottom: 40px;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 .social {
