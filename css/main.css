@@ -79,10 +79,10 @@ header {
 .showcase__button {
     width: 42%;
     height: 45px;
-    border: 1.5px solid red;
     border-radius: 5px;
-    background-color: transparent;
-    color: red;
+    border: 0;
+    background-color: #911d1d;
+    color: white;
     text-transform: uppercase;
     cursor: pointer;
     outline: 0;
@@ -110,6 +110,13 @@ header {
     width: 80%;
 }
 
+.before__after {
+    width: 82%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
 .card {
     border: 1px solid #FFF;
     width: 82%;
@@ -135,6 +142,14 @@ header {
     border-width: 100%;
 }
 
+.card__list {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #fff;
+    border-width: 100%;
+}
+
 .card__button {
     width: 90%;
     height: 50px;
@@ -146,6 +161,11 @@ header {
     cursor: pointer;
     border: none;
     margin: 0 0 20px 25px;
+}
+
+.card__button-link {
+    text-decoration: none;
+    color: #fff;
 }
 
 .content {
@@ -316,11 +336,14 @@ i.fab.fa-instagram {
     .showcase__button {
         width: 180px;
         height: 45px;
-        border: 1.5px solid #fff;
         color: #fff;
         cursor: pointer;
         outline: 0;
         margin: 0 auto;
+    }
+
+    .showcase__button:hover {
+        background-color: #cc4747;
     }
 
     .main__wrapper {
@@ -330,6 +353,10 @@ i.fab.fa-instagram {
 
     .content__spacer {
         width: 95%;
+    }
+
+    .before__after {
+        width: 60%;
     }
 
     .card__wrapper {
@@ -353,6 +380,13 @@ i.fab.fa-instagram {
         font-size: 1em;
         padding-bottom: 50px;
         height: 200px;
+    }
+
+    .card__list {
+        font-size: 1em;
+        padding-bottom: 27px;
+        border-bottom: 1px solid #fff;
+        border-width: 100%;
     }
 
     .card__button {

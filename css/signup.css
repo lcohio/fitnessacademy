@@ -124,11 +124,9 @@ legend {
 }
 
 footer {
-    background-image: url('../images/desktop-signup-footer.jpeg');
+    background-image: url('../images/SignupMobileFooter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
-    filter: brightness(50%);
     height: 425px;
 }
 
@@ -175,6 +173,7 @@ footer {
     margin: 0 auto;
     height: 100%;
     padding: 30px;
+    margin-top: 170px;
     text-align: center;
 }
 
@@ -211,6 +210,11 @@ i.fab.fa-facebook-f {
         max-width: 1000px;
         margin: 0 auto;
         padding-bottom: 100px;
+    }
+
+    footer {
+        background-image: url('../images/SignupBrowserFooter.jpg');
+        background-position: center center;
     }
     
     .footer__wrapper {
