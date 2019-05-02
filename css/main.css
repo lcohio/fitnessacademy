@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800,900');
 
 
 * {
@@ -54,22 +56,25 @@ header {
     padding-top: 40vh;
 }
 
-.showcase__headline {
+.showcase__headline-1 {
     font-size: 1.55em;
-    width: 100%;
     font-weight: lighter;
-
+    margin-bottom: -10px;
 }
 
-.headline__br {
-    border-bottom: 1px solid white;
-    padding-left: 20px;
-    padding-right: 20px;
+.showcase__headline-2 {
+    font-size: 1.55em;
+    width: 110px;
+    font-weight: lighter;
+    padding-bottom: .1em;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
 }
 
 .showcase__byline {
-    font-size: .9em;
-    font-weight: lighter;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.1em;
+    margin-top: 8px;
 }
 
 .button__container {
@@ -86,6 +91,7 @@ header {
     text-transform: uppercase;
     cursor: pointer;
     outline: 0;
+    font-weight: 700;
 }
 
 .content__wrapper {
@@ -93,9 +99,9 @@ header {
 }
 
 .content__title {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 2.1em;
-    margin: .9em 0 0 .8em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2.2em;
+    margin: .9em 0 0 .6em;
 }
 
 .content__spacer {
@@ -129,7 +135,7 @@ header {
 }
 
 .card__headline {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 2.1em;
     border-bottom: 1px solid white;
     padding: 35px 10px 35px 10px;
@@ -158,14 +164,15 @@ header {
     display: block;
     text-decoration: none;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 12px;
     width: 90%;
     height: 45px;
     border-radius: 25px;
     background-color: #ef3737;
     color: #fff;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.2em;
+    font-weight: 700;
     cursor: pointer;
     border: none;
     margin: 0 25px 20px 15px;
@@ -181,19 +188,19 @@ header {
 }
 
 .content__icon {
-    margin: 80px 25% 50px 25%;
-    width: 50%;
+    margin: 80px 30% 50px 30%;
+    width: 40%;
 }
 
 .content__headline {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 2.2em;
     text-align: center;
 }
 
 .content__expound {
     font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     width: 80%;
     text-align: center;
     margin: 0 auto;
@@ -214,16 +221,17 @@ footer {
 }
 
 .footer__title {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 2.2em;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 15px;
+    padding-top: 20px;
 }
 
 .footer__spacer {
     width: 85%;
     height: 1.4px;
     background-color: #FFF;
-    margin: 5px 0 0 20px;
+    margin: 5px 0 0 15px;
 }
 
 .footer__info {
@@ -237,11 +245,11 @@ footer {
 .footer__headline {
     font-family: 'Lato', sans-serif;
     text-align: left;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 12px;
+    margin-left: 13px;
     width: 330px;
     margin-bottom: 40px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 400;
 }
 
@@ -405,6 +413,7 @@ i.fab.fa-instagram {
         width: 80%;
         height: 40px;
         margin: 0 0 20px 25px;
+        padding-top: 8px;
     }
         
 
@@ -414,7 +423,6 @@ i.fab.fa-instagram {
 
     .content__row {
         display: flex;
-
     }
 
     .content__group {
@@ -424,8 +432,8 @@ i.fab.fa-instagram {
     
     .content__icon {
         align-content: center;
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        height: 130px;
         padding: 10px;
         margin: 0;
     }
@@ -436,7 +444,7 @@ i.fab.fa-instagram {
     }
     
     .content__headline {
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'Alegreya Sans', sans-serif;
         font-size: 2em;
         text-align: center;
         padding: 20px;
@@ -444,8 +452,7 @@ i.fab.fa-instagram {
     
     .content__expound {
         font-size: 1.2em;
-        padding: 20px;
-     
+        padding: 0 20px 20px 20px;
     }
 
     footer {

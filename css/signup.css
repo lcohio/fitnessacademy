@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800,900');
 
 
 * {
@@ -32,7 +34,7 @@ h5 {
 }
 
 .signup__title {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
     margin-top: 10px;
     text-align: center;
 }
@@ -50,8 +52,10 @@ fieldset {
 }
 
 legend {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 2em;
+    font-weight: 700;
+    margin-left: 10px;
 }
 
 .form__label {
@@ -109,8 +113,9 @@ legend {
 }
 
 .form__button {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.3em;
+    font-weight: 700;
     color: #fff;
     display: block;
     margin: 10px 0 auto 20px;
