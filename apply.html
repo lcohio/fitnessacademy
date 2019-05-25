@@ -22,9 +22,8 @@
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" media="screen" href="css/apply.css">
-<script src="https://js.stripe.com/v3"></script>
 <script src="js/main.js"></script>
-
+<script src="https://js.stripe.com/v3"></script>
 <!-- Facebook Pixel Code -->
 <script>
         !function(f,b,e,v,n,t,s)
@@ -66,7 +65,7 @@
                         <li class="CF1__listitem">Accountability and Goal Setting</li>
                         <li class="CF1__listitem">Weekly Group Calls</li>
                 </ul>
-                <button class="CF__buy"><a href="https://www.gumroad.com" class="gumroad__link">I WANT THIS!</a></button>
+                <button class="CF__buy" id="checkout-button-plan_F8PCkiAsZ3ELCY" role="link">I WANT THIS!</button>
         </div>
 
         <!-- CF2 -->
@@ -99,7 +98,9 @@
                         </ul>
                 <p class="CF2__summarize">In the Fitness Academy, I will teach you everything I
                         know about lifting and the fitness lifestyle.<br><br>I WILL make you Bigger, Leaner, Faster, Stronger!!</p>
-                <button class="CF__buy"><a href="https://www.gumroad.com" class="gumroad__link">I WANT THIS!</a></button>
+
+                <button class="CF__buy" id="checkout-button-plan_F8PCkiAsZ3ELCY" role="link">I WANT THIS!</button>
+
                 <h2 class="CF2__testimonial-title">Success Stories</h2>
                 <p class="CF2__testimonial">"As a guy pushing 50 that's active and does manual labor I reached out to this guy for some programming help. Didn't know him at all but he responded quickly and has been the best help I've ever had! Fixed my deadlift with one video. No bull approach with a tough but sustainable workout that's going to take me to the best fitness level of my life! Thanks Tell" -Steve</p>
                 <p class="CF2__testimonial">"Yo Tell just a quick shoutout about the program you've got me on! Best program I've ever used for sure and the 4 days of lifting gives me time to do cardio on my off days. Keep killin' it fam!" -Taylor</p>
@@ -107,47 +108,12 @@
                 <p class="CF2__testimonial">"Tell's programming and training has helped me lose over 40lb and counting. This is through working with me as a new lifter and showing me the correct form. He has really helped fix my form by breaking down my lifts lifts through videos and telling me where I can improve. Most importantly, he has taught me lifestyle changes that have improved my overall health." -Seth</p>
                 <p class="CF2__testimonial">"Got a workout program that was tailored to my exact goals and needs as an older gentleman. Was thorough and provided clear directions and progression that is easy to follow. Well thought out and not some copy and paste workout plan." -Chief</p>
                 <p class="CF2__testimonial">Personally, (Tell) I've built over 40lb onto my frame over the past couple of years. My Squat went from 115lb to 365lb. My Bench went from 60lb to 235lb. My Deadlift went from 115lb to 425lb. All of this has been achieved at 5'5 and 160lb bodyweight.</p>
-                <button class="CF__buy"><a href="https://www.gumroad.com" class="gumroad__link">I WANT THIS!</a></button>
-                <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-id="checkout-button-plan_F8OwDzwz9F8u84"
-role="link"
->
-Checkout
-</button>
-
-<div id="error-message"></div>
-
-<script>
-var stripe = Stripe('pk_live_bwAvIirt4Y7hOa5rIutwkj7c');
-
-var checkoutButton = document.getElementById('checkout-button-plan_F8OwDzwz9F8u84');
-checkoutButton.addEventListener('click', function () {
-  // When the customer clicks on the button, redirect
-  // them to Checkout.
-  stripe.redirectToCheckout({
-    items: [{plan: 'plan_F8OwDzwz9F8u84', quantity: 1}],
-
-    // Do not rely on the redirect to the successUrl for fulfilling
-    // purchases, customers may not always reach the success_url after
-    // a successful payment.
-    // Instead use one of the strategies described in
-    // https://stripe.com/docs/payments/checkout/fulfillment
-    successUrl: 'https://www.tellfisher.com/',
-    cancelUrl: 'https://www.tellfisher.com/apply.html',
-  })
-  .then(function (result) {
-    if (result.error) {
-      // If `redirectToCheckout` fails due to a browser or network
-      // error, display the localized error message to your customer.
-      var displayError = document.getElementById('error-message');
-      displayError.textContent = result.error.message;
-    }
-  });
-});
-</script>
+                <button class="CF__buy" id="checkout-button-plan_F8PCkiAsZ3ELCY" role="link">I WANT THIS!</button>
         </div>
+
+        <div id="error-message"></div>
+
+
 
         <h3 class="brand">THE ONLINE FITNESS ACADEMY</h3>
 
@@ -165,6 +131,38 @@ checkoutButton.addEventListener('click', function () {
         <div class="copyright">
                 <p class="copyright__statement">&copy; - Designed & Developed by <a href="">Saturn Media, LLC.</a></p>
         </div>
+
+<script>
+  var stripe = Stripe('pk_test_NQ7fY7aFKRsxAywx6I1EJaMA');
+
+  var checkoutButton = document.querySelectorAll('.CF__buy');
+  checkoutButton.forEach(function(button) {
+    button.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      items: [{plan: 'plan_F8PCkiAsZ3ELCY', quantity: 1}],
+
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'https://twitter.com/tellquint/success',
+      cancelUrl: 'https://twitter.com/tellquint/canceled',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+});
+  
+</script>        
     
 </body>
 </html>
