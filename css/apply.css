@@ -26,20 +26,10 @@ h5 {
     text-align: center;
 }
 
-.brand {
-    text-transform: uppercase;
-    font-size: 1.2em;
-    margin-top: 60px;
-}
-
 .page__title {
     font-family: 'Permanent Marker', cursive;
     font-size: 1.5rem;
     margin-top: 30px;
-}
-
-.video {
-    height: 400px;
 }
 
 /* CF1 */
@@ -101,10 +91,14 @@ h5 {
 }
 
 .CF2__pitch {
-    font-size: 1em;
-    text-align: left;
+    font-size: 2em;
+    text-align: center;
     margin-left: 10px;
     margin-bottom: 80px;
+}
+
+.CF2__pitch__2 {
+    margin-left: 10px;
 }
 
 .CF2__list-title {
