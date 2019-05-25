@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800,900');
 
 
 * {
@@ -39,6 +40,78 @@ h5 {
 
 .video {
     height: 400px;
+}
+
+/* CF1 */
+
+.CF1,
+.CF2 {
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.CF1__title {
+    font-size: 2.7em;
+    padding: 20px 0;
+    margin-left: 10px;
+}
+
+.CF1__subhead {
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.CF1__image {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.CF1__desc {
+    margin-left: 10px;
+}
+
+.CF1__subtitle {
+    margin-left: 10px;
+}
+
+.CF1__list {
+    padding-left: 25px;
+}
+
+/* CF2 */
+
+.CF2 {
+    margin: 60px 0;
+}
+
+.CF2__letter-greeting {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.CF2__letter {
+    margin: 60px 0;
+    margin-left: 10px;
+}
+
+.CF2__image {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.CF__buy {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ef3737;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2em;
 }
 
 .gumroad {
