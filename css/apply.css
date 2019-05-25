@@ -24,6 +24,7 @@ h5 {
 
 .container {
     text-align: center;
+
 }
 
 .page__title {
@@ -61,6 +62,7 @@ h5 {
 
 .CF1__desc {
     margin-left: 10px;
+    font-size: 1.2em;
 }
 
 .CF1__subtitle {
@@ -71,6 +73,12 @@ h5 {
 
 .CF1__list {
     padding-left: 25px;
+    list-style: none;
+}
+
+.CF1__list li:before{
+    content: '✓';
+    padding-right: 3px;
 }
 
 .CF1__listitem {
@@ -93,17 +101,23 @@ h5 {
 .CF2__pitch {
     font-size: 2em;
     text-align: center;
-    margin-left: 10px;
     margin-bottom: 80px;
-}
-
-.CF2__pitch__2 {
-    margin-left: 10px;
+    max-width: 95%;
 }
 
 .CF2__list-title {
     margin-left: 10px;
     font-size: 2em;
+}
+
+.CF2__list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.CF2__list li:before {
+    content: '✓';
+    padding-right: 3px;
 }
 
 .CF2__listitem {
@@ -112,13 +126,14 @@ h5 {
 
 .CF2__summarize {
     margin-left: 10px;
+    font-size: 1.2em;
 }
 
 .CF2__letter-greeting {
     margin-top: 20px;
     margin-left: 10px;
     margin-bottom: 5px;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
 }
 
@@ -126,12 +141,18 @@ h5 {
     text-indent: 30px;
     margin-left: 10px;
     margin-top: 0;
+    font-size: 1.2em;
 }
 
 .CF2__image {
     width: 300px;
     display: block;
     margin: 0 auto;
+}
+
+.CF2__pitch__2 {
+    margin-left: 10px;
+    font-size: 1.2em;
 }
 
 .CF2__testimonial-title {
@@ -150,8 +171,9 @@ h5 {
     border: 0;
     background-color: #ef3737;
     color: #fff;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.2em;
+    font-weight: 700;
     margin: 0 auto;
     margin-top: 60px;
     display: block;
@@ -189,12 +211,11 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    height: 500px;
-    margin-top: 100px;
+    height: 250px;
 }
 
 .social {
-    padding-top: 200px;
+    padding-top: 120px;
 }
 
 .social__link__wrapper {
