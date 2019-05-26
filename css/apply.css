@@ -44,12 +44,12 @@ h5 {
 .CF1__title {
     font-size: 2.7em;
     padding: 20px 0;
-    margin-left: 10px;
+    text-align: center;
 }
 
 .CF1__subhead {
-    margin-left: 10px;
     font-size: 1.5em;
+    text-align: center;
 }
 
 .CF1__image {
